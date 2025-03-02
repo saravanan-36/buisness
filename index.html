@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor landing page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="./script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-name">
+            <img src="./images/logo3.jpg" alt="img">
+            Dentio
+        </div>
+        <div class="navbar-links">
+            <a href="#">home</a>
+            <a href="#">Consultation</a>
+            <a href="#">How it work</a>
+            <a href="#">Contact us</a>
+            <a href="#">Signin</a>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavBar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!-- Navbar close -->
+
+    <!-- Side navbar -->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavBar()"><i class="fa-solid fa-xmark"></i></p>
+        <p class="side-navbar-link"><a href="#">home</a></p>
+        <p class="side-navbar-link"><a href="#">Consultation</a></p>
+        <p class="side-navbar-link"><a href="#">How it works</a></p>
+        <p class="side-navbar-link"><a href="#">Contact us</a></p>
+        <p class="side-navbar-link"><a href="#">Signin</a></p>
+    </div>
+    <!-- Side navbar close -->
+    <section class="content-1">
+        <div class="box">
+            <div class="sub-box">
+                <h3>Consult Your</h3>
+                <h3><span style="color: #8ec5fc;">Dental Health Issue</span></h3>
+                <p style="color: #8ec5fc;">Providing the best medical care with compassion and expertise.</p>
+                <button id="btn">Schedule a call</button>
+            </div>
+        </div>
+        <div class="box1">
+            <div class="sub-box1">
+                <img src="./images/doctor1.png" alt="img" width="100%" height="100%">
+                <div class="image_content image_content1">
+                    <span><i class="fa-solid fa-user"></i></span>
+                    <div class="details">
+                        <h4>1520+</h4>
+                        <p>Active Clients</p>
+                    </div>
+                </div>
+                <div class="image_content image_content2">
+                    <ul>
+                        <li>
+                            <span><i class="fa-solid fa-check"></i></span>
+                            Get 20% off on every 1st month
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-check"></i></span>
+                            Expert Doctors
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-2">
+        <h3 style="color: #8ec5fc;">Our Most Valuable Trust partner</h3>
+        <div class="logo-partner">
+            <img src="./images/logo7.jpg" alt="img">
+            <img src="./images/slogan.jpg" alt="img">
+            <img src="./images/logo6.jpg" alt="img">
+            <img src="./images/logo5.jpg" alt="img">
+            <img src="./images/logo8.jpg" alt="img">
+            <img src="./images/logo4.jpg" alt="img">
+            <img src="./images/health.jpg" alt="img">
+            <img src="./images/logo9.png" alt="img">
+        </div>
+    </section>
+
+    <section class="content-3">
+        <h2>Exceptionally High Standards Of Dentistry</h2>
+        <div class="big-card">
+            <div class="card">
+                <img src="./images/logo1.jpg" alt="Advanced Dentistry">
+                <h4>Advanced Dentistry</h4>
+                <p>Modern dentistry has evolved significantly, offering patients more precise, painless, and efficient
+                    treatments.</p>
+            </div>
+            <div class="card">
+                <img src="./images/natural.jpg" alt="Natural Environment">
+                <h4>Natural Environment</h4>
+                <p>A calm and natural environment plays a crucial role in promoting overall well-being and relaxation.
+                </p>
+            </div>
+            <div class="card">
+                <img src="./images/med1.jpg" alt="Modern Equipment">
+                <h4>Modern Equipment</h4>
+                <p>The latest advancements in technology have revolutionized treatments, making them safer, faster, and
+                    more effective.</p>
+            </div>
+        </div>
+    </section>
+    <section class="content-4">
+        <div class="content-img">
+            <img src="./images/doctor7.png" alt="img" width="100%" height="100%">
+        </div>
+        <div class="section-4-content">
+            <div class="doct-content">
+                <h2>Find your Right Doctor for Best Consultation</h2>
+                <p>Finding the right doctor is essential for quality healthcare and effective treatment..</p>
+            </div>
+            <div class="doct-card">
+                <div class="doct-small-box">
+                    <img src="./images/logo10.png" alt="img">
+                    <div class="small-box-content">
+                        <h5>Laser technology</h5>
+                        <p>World most Advanced Diode laser</p>
+                    </div>
+                </div>
+                <div class="doct-small-box">
+                    <img src="./images/teeth.png" alt="img">
+                    <div class="small-box-content">
+                        <h5>Painless Implant</h5>
+                        <p>Your Treatement Expereince good</p>
+                    </div>
+                </div>
+                <div class="doct-small-box">
+                    <img src="./images/med.jpg" alt="img">
+                    <div class="small-box-content">
+                        <h5>3D dental Scanner</h5>
+                        <p>World Most advanced 3d Scanner</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="content-5">
+        <div class="section-schdule-bigcontent">
+            <div class="section-schedule">
+                <div class="schedule-content">
+                    <h1>What Makes us More Special</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corrupti accusantium
+                        aspernatur
+                        nulla sit praesentium.</p>
+                </div>
+                <div class="section-big-content">
+                    <div class="section-schedule-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="schudule-icon-content">
+                        <p>Top Quality Dental Team</p>
+                    </div>
+                </div>
+                <div class="section-big-content">
+                    <div class="section-schedule-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="schudule-icon-content">
+                        <p>State of the Art Dental team</p>
+                    </div>
+                </div>
+                <div class="section-big-content">
+                    <div class="section-schedule-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="schudule-icon-content">
+                        <p>Discount On All Dental Treatment</p>
+                    </div>
+                </div>
+                <button class="schdule-btn">Schedule a call</button>
+            </div>
+            <div class="section-schdule1">
+                <div class="section-schdule-img">
+                    <img src="./images/doctor8.png" alt="img" width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-6">
+        <div class="spcial-card-content">
+            <div class="special-content">
+                <h1 style="color: #8ec5fc;">Meet our Specalist</h1>
+                <p style="color: #333333;">Our team of expert specialists is dedicated to providing top-quality
+                    healthcare with a patient-first
+                    approach. With years of experience and a commitment to excellence, our doctors ensure that you
+                    receive the best medical care tailored to your needs.</p>
+            </div>
+            <div class="special-card">
+                <div class="special-card-1">
+                    <div class="special-img">
+                        <img src="./images/doctor10.png" alt="img" width="100%" height="100%">
+                    </div>
+                    <div class="special-content-page">
+                        <h2>Dr.Roberto</h2>
+                        <p>Oral Surgeon</p>
+                    </div>
+                </div>
+                <div class="special-card-1">
+                    <div class="special-img">
+                        <img src="./images/doctor11.png" alt="img" width="100%" height="100%">
+                    </div>
+                    <div class="special-content-page">
+                        <h2>Dr.Jenny R</h2>
+                        <p>Oral Surgeon</p>
+                    </div>
+                </div>
+                <div class="special-card-1">
+                    <div class="special-img">
+                        <img src="./images/doctor12.png" alt="img" width="100%" height="100%">
+                    </div>
+                    <div class="special-content-page">
+                        <h2>Dr.Veronika</h2>
+                        <p>Orthodontist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-7">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Client say</h2>
+            </div>
+            <div class="testimonials-content">
+                <div class="swiper testimonials-slider js-testimonials-sliders">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide testmonials-item">
+                            <div class="info">
+                                <img src="./images/slogan.jpg" alt="img">
+                                <div class="text-box">
+                                    <h5 class="name">John doe</h5>
+                                    <span class="job">Web Developer</span>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nesciunt voluptatum
+                                consequatur accusantium quam doloremque vitae voluptates necessitatibus sequi quia.</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testmonials-item">
+                            <div class="info">
+                                <img src="./images/doctor.png" alt="img">
+                                <div class="text-box">
+                                    <h5 class="name">John doe</h5>
+                                    <span class="job">Web Developer</span>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nesciunt voluptatum
+                                consequatur accusantium quam doloremque vitae voluptates necessitatibus sequi quia.</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testmonials-item">
+                            <div class="info">
+                                <img src="./images/doctor1.png" alt="img">
+                                <div class="text-box">
+                                    <h5 class="name">John doe</h5>
+                                    <span class="job">Web Developer</span>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nesciunt voluptatum
+                                consequatur accusantium quam doloremque vitae voluptates necessitatibus sequi quia.</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testmonials-item">
+                            <div class="info">
+                                <img src="./images/doctor10.png" alt="img">
+                                <div class="text-box">
+                                    <h5 class="name">John doe</h5>
+                                    <span class="job">Web Developer</span>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nesciunt voluptatum
+                                consequatur accusantium quam doloremque vitae voluptates necessitatibus sequi quia.</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testmonials-item">
+                            <div class="info">
+                                <img src="./images/doctor11.png" alt="img">
+                                <div class="text-box">
+                                    <h5 class="name">John doe</h5>
+                                    <span class="job">Web Developer</span>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nesciunt voluptatum
+                                consequatur accusantium quam doloremque vitae voluptates necessitatibus sequi quia.</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testmonials-item">
+                            <div class="info">
+                                <img src="./images/doctor12.png" alt="img">
+                                <div class="text-box">
+                                    <h5 class="name">John doe</h5>
+                                    <span class="job">Web Developer</span>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nesciunt voluptatum
+                                consequatur accusantium quam doloremque vitae voluptates necessitatibus sequi quia.</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testmonials-item">
+                            <div class="info">
+                                <img src="./images/doctor4.png" alt="img">
+                                <div class="text-box">
+                                    <h5 class="name">John doe</h5>
+                                    <span class="job">Web Developer</span>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nesciunt voluptatum
+                                consequatur accusantium quam doloremque vitae voluptates necessitatibus sequi quia.</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testmonials-item">
+                            <div class="info">
+                                <img src="./images/doctor5.png" alt="img">
+                                <div class="text-box">
+                                    <h5 class="name">John doe</h5>
+                                    <span class="job">Web Developer</span>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nesciunt voluptatum
+                                consequatur accusantium quam doloremque vitae voluptates necessitatibus sequi quia.</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination js-testimonials-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <h1 class="about-title">Contact us</h1>
+    <section class="content-8">
+        <div class="content-8-bigbox">
+            <div class="content-8-heading">
+                <h2>Get Started and Book <br>An Appoinment Today</h2>
+            </div>
+            <div class="content-8-button">
+                <button>Schedule a call</button>
+            </div>
+        </div>
+    </section>
+    <section class="content-9">
+        <div class="about" id="about">
+            <div class="frame">
+                <div class="frame-logo">
+                    <img src="./images/logo3.jpg" alt="logo" ><span style="color: #8ec5fc; font-size: 25px; font-weight: 600;">Dentio</span>
+                </div>
+                <div class="frame-text">
+                    <p>Dentio Pro A comprehensive software designed for dental clinics, offering digital patient records, intervention tracking</p>
+                </div>
+            </div>
+            <div class="heading">
+                <h3>LEGAL</h3>
+                <div class="links">
+                    <a href="#">General info</a>
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms of Service </a>
+                    <a href="#">Consultation</a>
+                </div>
+            </div>
+            <div class="heading">
+                <h3>SERVICES</h3>
+                <div class="links">
+                    <a href="#">Online Dentist </a>
+                    <a href="#">Prescription</a>
+                    <a href="#">Online Theraphy</a>
+                    <a href="#">Urgent</a>
+                </div>
+            </div>
+            <div class="heading">
+                <h3>TALK TO US</h3>
+                <div class="links">
+                    <a href="#">support@gmail.com</a>
+                    <a href="#">7845127845</a>
+                    <a href="#">7845127845</a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="con-title">
+                    <h3>CONTACT US</h3>
+                </div>
+                <div class="con-icon">
+                    <div class="icons"><i class="fa-brands fa-facebook" style="color: #1877F2;"></i></div>
+                    <div class="icons"><i class="fa-brands fa-youtube" style="color: #FF0000;"></i></div>
+                    <div class="icons"><i class="fa-brands fa-instagram" style="color: #E4405F;"></i></div>
+                    <div class="icons"><i class="fa-brands fa-google" style="color: #DB4437;"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.js-testimonials-sliders', {
+            grapCursor: true,
+            spaceBetween: 30,
+            pagination: {
+                el: '.js-testimonials-pagination',
+                clickable: true
+            },
+            breakpoints: {
+                767: {
+                    slidesPerview: 2
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
